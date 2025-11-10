@@ -23,7 +23,7 @@ A hands-on **CI/CD pipeline project** for Flutter apps — demonstrating end-to-
 ### 🧰 Tech Stack
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=flutter,dart,androidstudio,java,kotlin,linux,git,github,githubactions,postman&theme=light" />
+  <img src="https://skillicons.dev/icons?i=flutter,dart,androidstudio,java,linux,git,github,githubactions,postman&theme=light" />
 </p>
 
 ---
