@@ -28,17 +28,6 @@ A hands-on **CI/CD pipeline project** for Flutter apps — demonstrating end-to-
 
 ---
 
-### 🧠 Latest Articles
-I share practical guides and reflections on Flutter development and mobile CI/CD:
-
-- [Automatically Release Your Flutter App to Google Play Store](https://medium.com/@nferdazel)
-- [Streamlining Flutter Builds with GitHub Actions](https://medium.com/@nferdazel)
-- [Building Maintainable Architectures in Flutter](https://medium.com/@nferdazel)
-
-> ✍️ Check out more of my writing on [Medium](https://medium.com/@nferdazel)
-
----
-
 ### 🧮 GitHub Stats
 
 <p align="center">
@@ -59,12 +48,3 @@ I share practical guides and reflections on Flutter development and mobile CI/CD
 </p>
 
 ---
-
-### 🧭 A Bit of Philosophy
-> “Open source isn’t just about code — it’s about sharing curiosity and making problems solvable together.”
-
----
-
-<p align="center">
-  💡 <em>Always building, always learning.</em>
-</p>
