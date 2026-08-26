@@ -1,6 +1,6 @@
 <!-- Profile README for @nferdazel — Fredi · Qouver -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&height=180&color=0:0f172a,100:1e3a5f&text=Hi,%20I'm%20Fredi%20—%20Qouver&fontColor=ffffff&fontSize=38&desc=Code%20·%20Coffee%20·%20Commit%20—%20repeat&descAlignY=52&descAlign=50&animation=fadeIn" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&height=200&color=0:0f172a,100:1e3a5f&text=Hi,%20I'm%20Fredi%20—%20Qouver&fontColor=ffffff&fontSize=36&desc=Code%20·%20Coffee%20·%20Commit%20—%20repeat&descAlignY=68&descAlign=50&animation=fadeIn" />
 </p>
 
 <p align="center">
