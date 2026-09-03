@@ -38,7 +38,7 @@ I don't run a team — I run systems. From airline-tycoon simulation to badminto
 | # | Project | What it is | Stack | Status |
 |---|---------|------------|-------|--------|
 | **01** | [**Skyward**](https://skyward.qouver.com) — *Airline Tycoon* | Authoritative simulation: fleet, routes, economy, bank/loans, world-tick. Flutter client = command only, Go = sole engine. | `Flutter` · `Supabase` · `Go` · `Postgres` | 🟢 **Live** |
-| **02** | [**M-DEF**](https://github.com/nferdazel/mdef) — *Badminton Analytics* | Leaderboard & analytics on **MAJADU Dynamic-Elo Framework** — margin-of-victory + decay. **Pensiun / Archived** — digantikan `Majadu /ratings`. | `Flutter` · `Signals` · `Supabase` | ⚪ **Retired** |
+| **02** | **M-DEF** — *Badminton Analytics* (repo retired) | Leaderboard & analytics on **MAJADU Dynamic-Elo Framework** — margin-of-victory + decay. **Pensiun / Archived** — digantikan `Majadu /ratings`. | `Flutter` · `Signals` · `Supabase` | ⚪ **Retired** |
 | **03** | [**Majadu**](https://api.qouver.com/majadu) — *Session Ops* | **PWA mobile-first**: court scheduling (5-phase engine), live scoring, Glicko-1-lite + 8-tier bands, tournaments, seasons. | `React 19` · `Vite` · `Tailwind 4` · `Go` · `Postgres` | 🟢 **Live** |
 | **04** | [**Qouver Web**](https://qouver.com) — *Umbrella Home* | Company site — 100% static HTML prerendered server-side, no JS. Swiss editorial design. | `Jaspr (Dart)` · `Caddy` | 🟢 **Live** |
 | **05** | [**SDS Management**](https://sds.qouver.com) — *Compliance* | SDS/MSDS lifecycle: chemical versioning, GHS pictograms, HTML→PDF (Chromium headless), bulk ZIP. | `Vue 3` · `Element Plus` · `Go` · `Postgres` | 🟢 **Live** |
