@@ -4,7 +4,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/nferdazel"><img src="https://readme-typing-svg.demolab.com?font=IBM+Plex+Mono&size=16&duration=3000&pause=800&color=94A3B8&center=true&vCenter=true&width=600&lines=Systems+Prospector+·+Solo+Developer+·+Indonesia;Flutter+%2B+Go+%2B+Supabase+%2B+Postgres;Building+Skyward+%2C+Majadu+%2C+SDS+%26+Qouver+ecosystem" alt="typing" /></a>
+  <a href="https://github.com/nferdazel"><img src="https://readme-typing-svg.demolab.com?font=IBM+Plex+Mono&size=16&duration=3000&pause=800&color=94A3B8&center=true&vCenter=true&width=600&lines=Systems+Prospector+%C2%B7+Solo+Developer+%C2%B7+Indonesia;React+%2B+Go+%2B+Postgres+%2B+Flutter;Building+Skyward+%2C+Majadu%2C+SDS+%26+CBS+Core" alt="" aria-hidden="true" /></a>
 </p>
 
 <p align="center">
@@ -42,14 +42,15 @@ I don't run a team — I run systems. From airline-tycoon simulation to badminto
 | **03** | [**Majadu**](https://api.qouver.com/majadu) — *Session Ops* | **PWA mobile-first**: court scheduling (5-phase engine), live scoring, Glicko-1-lite + 8-tier bands, tournaments, seasons. | `React 19` · `Vite` · `Tailwind 4` · `Go` · `Postgres` | 🟢 **Live** |
 | **04** | [**Qouver Web**](https://qouver.com) — *Umbrella Home* | Company site — 100% static HTML prerendered server-side, no JS. Swiss editorial design. | `Jaspr (Dart)` · `Caddy` | 🟢 **Live** |
 | **05** | [**SDS Management**](https://sds.qouver.com) — *Compliance* | SDS/MSDS lifecycle: chemical versioning, GHS pictograms, HTML→PDF (Chromium headless), bulk ZIP. | `Vue 3` · `Element Plus` · `Go` · `Postgres` | 🟢 **Live** |
-| **06** | [**seather**](https://github.com/nferdazel/seather) — *CI/CD Lab* | Hands-on Flutter CI/CD pipeline — GitHub Actions, release automation, production workflows. | `Flutter` · `GitHub Actions` | 🔵 **Open Source** |
+| **06** | **CBS Core** — *Core Banking* (private) | Core banking for Indonesian rural banks (BPR/BPRS): tabungan, deposito, kredit — strict double-entry GL, maker-checker, EOD batch, PPAP/CKPN, OJK reporting (POJK 1/2024, 23/2024). | `React` · `Go` · `Postgres` | 🟢 **Live** |
+| **07** | [**seather**](https://github.com/nferdazel/seather) — *CI/CD Lab* | Hands-on Flutter CI/CD pipeline — GitHub Actions, release automation, production workflows. | `Flutter` · `GitHub Actions` | 🔵 **Open Source** |
 
 <details>
 <summary>📦 More in <code>/Projects</code> (local / research)</summary>
 
-- `majadu-api` & `skyward-api` & `sds-api` — Go backends (stdlib `net/http` + `pgx/v5`, no framework bloat)
-- `anomali_detection` — pair/bracket anomaly research + SQL dumps (badminton)
-- `sds` / `ohsera` — raw XLSX & audit docs (private, not on GitHub)
+- `skyward-monorepo` / `sds-monorepo` / `badminton-match` — each ships its Go backend inside `apps/api` (stdlib `net/http` + `pgx/v5`, no framework bloat), not as separate repos
+- `anomali_detection` — pair/bracket anomaly research + SQL dumps (badminton) · *folded into Majadu*
+- `ohsera` / `ojan` — audit reports & agentic-AI POC notes (private, not on GitHub)
 
 </details>
 
@@ -88,9 +89,10 @@ I don't run a team — I run systems. From airline-tycoon simulation to badminto
 
 ```dart
 final now = {
-  'building': 'skyward-api — Go sole engine (parity vs 114 SQL functions)',
+  'building': 'skyward-monorepo — Go sole engine (parity vs 114 SQL functions)',
   'shipping': 'Majadu — granular swap + SSE realtime + concurrency hardening',
   'operating': 'SDS Management — normalized columns + Bayer header polish',
+  'hardening': 'CBS Core — maker-checker, EOD batch, OJK reporting',
   'writing': 'Qouver handbook — backend-go-decision & hardening plans',
 };
 ```
