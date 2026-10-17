@@ -4,12 +4,12 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/nferdazel"><img src="https://readme-typing-svg.demolab.com?font=IBM+Plex+Mono&size=16&duration=3000&pause=800&color=94A3B8&center=true&vCenter=true&width=600&lines=Systems+Prospector+%C2%B7+Solo+Developer+%C2%B7+Indonesia;React+%2B+Go+%2B+Postgres+%2B+Flutter;Building+Skyward+%2C+Majadu%2C+SDS+%26+CBS+Core" alt="" aria-hidden="true" /></a>
+  <a href="https://github.com/nferdazel"><img src="https://readme-typing-svg.demolab.com?font=IBM+Plex+Mono&size=16&duration=3000&pause=800&color=94A3B8&center=true&vCenter=true&width=600&lines=Systems+Prospector+%C2%B7+Solo+Developer+%C2%B7+Indonesia;Go+%2B+Postgres+%2B+Nim+%2B+Svelte;Building+Skyward+%2C+Majadu%2C+SDS+%26+KRAN" alt="" aria-hidden="true" /></a>
 </p>
 
 <p align="center">
   <a href="https://qouver.com"><img src="https://img.shields.io/badge/qouver.com-umbrella-0f172a?style=for-the-badge" /></a>
-  <a href="https://skyward.qouver.com"><img src="https://img.shields.io/badge/Skyward-Live-0ea5e9?style=for-the-badge&logo=flutter&logoColor=white" /></a>
+  <a href="https://skyward.qouver.com"><img src="https://img.shields.io/badge/Skyward-Live-0ea5e9?style=for-the-badge&logo=svelte&logoColor=white" /></a>
   <a href="https://sds.qouver.com"><img src="https://img.shields.io/badge/SDS-Live-10b981?style=for-the-badge&logo=vue.js&logoColor=white" /></a>
   <img src="https://visitor-badge.laobi.icu/badge?page_id=nferdazel&left_color=%230f172a&right_color=%230ea5e9" />
 </p>
@@ -20,12 +20,12 @@
 
 Hey, I'm **Fredi** — **Systems Prospector** behind [**Qouver**](https://qouver.com). Solo-developer, cost-conscious, all-rounder.
 
-I don't run a team — I run systems. From airline-tycoon simulation to badminton session ops to SDS compliance tools, I design, ship, and operate end-to-end: **Flutter/React/Vue on the front, Go + Postgres on the back, all deployed on a single VPS.**
+I don't run a team — I run systems. From airline-tycoon simulation to badminton session ops to SDS compliance tools, I design, ship, and operate end-to-end: **Svelte/Flutter/Vue on the front, Go + Nim + Postgres on the back, all deployed on a single VPS.**
 
 > *Philosophy:* preserve intent, ship the simplest correct solution, automate the rest. `Code → ship → observe → refine.`
 
 - 🌏 Based in Indonesia · building for real communities (not just demos)
-- 🎯 Currently focused on: **Skyward** (airline sim), **Majadu** (badminton ops), **SDS Management** (Bayer)
+- 🎯 Currently focused on: **Skyward** (airline sim), **Majadu** (badminton ops), **SDS Management** (Bayer), **KRAN** (banking)
 - ✍️ Writing on [Medium @nferdazel](https://medium.com/@nferdazel)
 - ☕ Fuel: coffee, clean code, and zero-downtime deploys
 
@@ -37,18 +37,17 @@ I don't run a team — I run systems. From airline-tycoon simulation to badminto
 
 | # | Project | What it is | Stack | Status |
 |---|---------|------------|-------|--------|
-| **01** | [**Skyward**](https://skyward.qouver.com) — *Airline Tycoon* | Authoritative simulation: fleet, routes, economy, bank/loans, world-tick. Flutter client = command only, Go = sole engine. | `Flutter` · `Supabase` · `Go` · `Postgres` | 🟢 **Live** |
-| **02** | **M-DEF** — *Badminton Analytics* (repo retired) | Leaderboard & analytics on **MAJADU Dynamic-Elo Framework** — margin-of-victory + decay. **Pensiun / Archived** — digantikan `Majadu /ratings`. | `Flutter` · `Signals` · `Supabase` | ⚪ **Retired** |
-| **03** | [**Majadu**](https://api.qouver.com/majadu) — *Session Ops* | **PWA mobile-first**: court scheduling (5-phase engine), live scoring, Glicko-1-lite + 8-tier bands, tournaments, seasons. | `React 19` · `Vite` · `Tailwind 4` · `Go` · `Postgres` | 🟢 **Live** |
-| **04** | [**Qouver Web**](https://qouver.com) — *Umbrella Home* | Company site — 100% static HTML prerendered server-side, no JS. Swiss editorial design. | `Jaspr (Dart)` · `Caddy` | 🟢 **Live** |
-| **05** | [**SDS Management**](https://sds.qouver.com) — *Compliance* | SDS/MSDS lifecycle: chemical versioning, GHS pictograms, HTML→PDF (Chromium headless), bulk ZIP. | `Vue 3` · `Element Plus` · `Go` · `Postgres` | 🟢 **Live** |
-| **06** | **CBS Core** — *Core Banking* (private) | Core banking for Indonesian rural banks (BPR/BPRS): tabungan, deposito, kredit — strict double-entry GL, maker-checker, EOD batch, PPAP/CKPN, OJK reporting (POJK 1/2024, 23/2024). | `React` · `Go` · `Postgres` | 🟢 **Live** |
-| **07** | [**seather**](https://github.com/nferdazel/seather) — *CI/CD Lab* | Hands-on Flutter CI/CD pipeline — GitHub Actions, release automation, production workflows. | `Flutter` · `GitHub Actions` | 🔵 **Open Source** |
+| **01** | [**Skyward**](https://skyward.qouver.com) — *Airline Tycoon* | Authoritative simulation: fleet, routes, economy, bank/loans, world-tick. Svelte client, Go backend sole engine. | `Go` · `Postgres` · `SvelteKit` | 🟢 **Live** |
+| **02** | [**Majadu**](https://api.qouver.com/majadu) — *Session Ops Engine* | Backend engine & APIs: court scheduling (5-phase engine), live scoring & SSE streams, Glicko-1-lite rating + 8-tier bands, tournament brackets. | `Go` · `Postgres` | 🟢 **Live** |
+| **03** | [**Qouver Web**](https://qouver.com) — *Umbrella Home* | Company site — 100% static HTML prerendered server-side, no JS. Swiss editorial design. | `SvelteKit` · `Nim` · `Caddy` | 🟢 **Live** |
+| **04** | [**SDS Management**](https://sds.qouver.com) — *Compliance* | SDS/MSDS lifecycle: chemical versioning, GHS pictograms, HTML→PDF (Chromium headless), bulk ZIP. | `Vue 3` · `Element Plus` · `Go` · `Postgres` | 🟢 **Live** |
+| **05** | **KRAN** — *Core Banking* (private) | Core banking standard Indonesia (KSP, BPR/BPRS, BMT): tabungan, deposito, kredit — strict double-entry GL (no float money), parameter maker-checker, outbox pattern. | `Nim` · `Postgres` · `SvelteKit` | 🟢 **Private** |
+| **06** | [**seather**](https://github.com/nferdazel/seather) — *CI/CD Lab* | Hands-on Flutter CI/CD pipeline — GitHub Actions, release automation, production workflows. | `Flutter` · `GitHub Actions` | 🔵 **Open Source** |
 
 <details>
 <summary>📦 More in <code>/Projects</code> (local / research)</summary>
 
-- `skyward-monorepo` / `sds-monorepo` / `badminton-match` — each ships its Go backend inside `apps/api` (stdlib `net/http` + `pgx/v5`, no framework bloat), not as separate repos
+- `skyward` / `sds-monorepo` / `badminton-match` — each ships its Go backend inside `apps/api` (stdlib `net/http` + `pgx/v5`, no framework bloat), not as separate repos
 - `anomali_detection` — pair/bracket anomaly research + SQL dumps (badminton) · *folded into Majadu*
 - `ohsera` / `ojan` — audit reports & agentic-AI POC notes (private, not on GitHub)
 
@@ -59,14 +58,14 @@ I don't run a team — I run systems. From airline-tycoon simulation to badminto
 ### 🧰 Tech Stack
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=flutter,dart,go,react,vue,ts,js,supabase,postgres,docker,linux,git,github,githubactions,vscode,figma&perline=8&theme=dark" />
+  <img src="https://skillicons.dev/icons?i=go,nim,java,postgres,svelte,flutter,dart,vue,ts,linux&perline=10&theme=dark" />
 </p>
 
 | Layer | Tools |
 |-------|-------|
-| **Frontend** | Flutter · React 19 · Vue 3 · Vite · Tailwind CSS · Jaspr (Dart) · Signals · Pinia · Element Plus |
-| **Backend** | Go 1.26 (`net/http` stdlib, no framework) · `pgx/v5` · Supabase / Postgres · JWT HS256 stdlib · OpenAPI |
-| **Infra & Ops** | Podman Quadlet (systemd) · Caddy (TLS + reverse proxy) · GHCR · VPS · Chromium headless (PDF) |
+| **Backend & Systems** | Go (`net/http` stdlib, no framework) · Nim 2.2 · Java · PostgreSQL (`pgx/v5`) · OpenAPI |
+| **Frontend & UI** | SvelteKit · Flutter · Vue 3 |
+| **Infra & Ops** | Rocky Linux · Podman Quadlet (systemd) · Caddy (TLS + reverse proxy) · GitHub Actions |
 | **Craft** | Glicko / Dynamic-Elo rating engines · Decimal money (no float!) · Optimistic concurrency · Idempotent ingest |
 
 ---
@@ -90,14 +89,14 @@ I don't run a team — I run systems. From airline-tycoon simulation to badminto
 
 ### 🔭 Currently
 
-```dart
-final now = {
-  'building': 'skyward-monorepo — Go sole engine (parity vs 114 SQL functions)',
-  'shipping': 'Majadu — granular swap + SSE realtime + concurrency hardening',
-  'operating': 'SDS Management — normalized columns + Bayer header polish',
-  'hardening': 'CBS Core — maker-checker, EOD batch, OJK reporting',
-  'writing': 'Qouver handbook — backend-go-decision & hardening plans',
-};
+```go
+var now = map[string]string{
+    "building":  "Skyward — Go sole engine, authoritative simulation",
+    "shipping":  "Majadu — granular swap + SSE realtime + concurrency hardening",
+    "operating": "SDS Management — normalized columns + Bayer header polish",
+    "hardening": "KRAN — maker-checker parameters, immutable GL, regulatory packs",
+    "writing":   "Qouver handbook — backend decisions & hardening plans",
+}
 ```
 
 ---
