@@ -78,8 +78,8 @@ I don't run a team — I run systems. From airline-tycoon simulation to badminto
 
 <table align="center">
   <tr>
-    <td width="50%"><img width="100%" src="https://github-readme-stats.vercel.app/api?username=nferdazel&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&card_width=430" alt="GitHub stats" /></td>
-    <td width="50%"><img width="100%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=nferdazel&layout=compact&theme=tokyonight&hide_border=true&langs_count=6&card_width=430" alt="Top languages" /></td>
+    <td width="50%"><img width="100%" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=nferdazel&theme=tokyonight" alt="GitHub stats" /></td>
+    <td width="50%"><img width="100%" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=nferdazel&theme=tokyonight" alt="Top languages" /></td>
   </tr>
   <tr>
     <td colspan="2"><img width="100%" src="https://streak-stats.demolab.com/?user=nferdazel&theme=tokyonight&hide_border=true" alt="Streak stats" /></td>
