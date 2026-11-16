@@ -37,7 +37,7 @@ I don't run a team — I run systems. From airline-tycoon simulation to badminto
 
 | # | Project | What it is | Stack | Status |
 |---|---------|------------|-------|--------|
-| **01** | [**Majadu**](https://qouver.com/projects/majadu) — *Session Ops Engine* | Club operations app: court scheduling (5-phase engine), live scoring & SSE streams, Glicko-1-lite rating + 8-tier bands, tournament brackets. React PWA in front of a Nim API on one Postgres, 76 operations generated from OpenAPI, schema-based multi-tenancy. | `Nim` · `React` · `Postgres` · `OpenAPI` | 🟢 **Live** |
+| **01** | [**Majadu**](https://qouver.com/projects/majadu) — *Session Ops Engine* | Club operations app: court scheduling (5-phase engine), live scoring & SSE streams, Glicko-1-lite rating + 8-tier bands, tournament brackets. SvelteKit SPA in front of a Nim API on one Postgres, 76 operations generated from OpenAPI, schema-based multi-tenancy. | `Nim` · `Svelte` · `Postgres` · `OpenAPI` | 🟢 **Live** |
 | **02** | [**Qouver Web**](https://qouver.com) — *Umbrella Home* | Company site — 100% static HTML prerendered server-side, no JS. Swiss editorial design. | `SvelteKit` · `Nim` · `Caddy` | 🟢 **Live** |
 | **03** | [**SDS Management**](https://sds.qouver.com) — *Compliance* | SDS/MSDS lifecycle: chemical versioning, GHS pictograms, HTML→PDF (Chromium headless), bulk ZIP. | `Vue 3` · `Element Plus` · `Go` · `Postgres` | 🟢 **Live** |
 | **04** | [**KRAN**](https://github.com/nferdazel/kran) — *Core Banking* | Core banking for Indonesian cooperatives. First slice is KSP (simpan pinjam): members, savings, loans with maker/checker, SHU, RAT-class reporting. BPR/BPRS and syariah packages are planned, not built. Strict double-entry GL (no float money), outbox pattern. | `Nim` · `Postgres` · `SvelteKit` | 🟡 **In build** |
@@ -62,14 +62,14 @@ I don't run a team — I run systems. From airline-tycoon simulation to badminto
 ### 🧰 Tech Stack
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=go,nim,java,postgres,svelte,flutter,dart,vue,ts,linux&perline=10&theme=dark" />
+  <img src="https://skillicons.dev/icons?i=go,nim,postgres,svelte,flutter,dart,vue,ts,linux,githubactions&perline=10&theme=dark" />
 </p>
 
 | Layer | Tools |
 |-------|-------|
-| **Backend & Systems** | Go (`net/http` stdlib, no framework) · Nim 2.2 · Java · PostgreSQL (`pgx/v5`) · OpenAPI |
-| **Frontend & UI** | SvelteKit · Flutter · Vue 3 |
-| **Infra & Ops** | Rocky Linux · Podman Quadlet (systemd) · Caddy (TLS + reverse proxy) · GitHub Actions |
+| **Backend & Systems** | Go (`net/http` stdlib, no framework) · Nim 2.4 (Mummy) · PostgreSQL 18 (`pgx/v5`) · OpenAPI |
+| **Frontend & UI** | SvelteKit 3 / Svelte 5 · TypeScript 6 · Vue 3 (Element Plus) · Flutter |
+| **Infra & Ops** | Rocky Linux 9 · Podman Quadlet (systemd) · Caddy (TLS + reverse proxy) · GitHub Actions |
 | **Craft** | Glicko / Dynamic-Elo rating engines · Decimal money (no float!) · Optimistic concurrency · Idempotent ingest |
 
 ---
