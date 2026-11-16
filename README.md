@@ -20,7 +20,7 @@
 
 Hey, I'm **Fredi** — **Systems Prospector** behind [**Qouver**](https://qouver.com). Solo-developer, cost-conscious, all-rounder.
 
-I don't run a team — I run systems. From airline-tycoon simulation to badminton session ops to SDS compliance tools, I design, ship, and operate end-to-end: **Svelte/Vue/Flutter on the front, Nim + Postgres on the back, all deployed on a single VPS.**
+I don't run a team — I run systems. From airline-tycoon simulation to badminton session ops to SDS compliance tools, I design, ship, and operate end-to-end: **Svelte/Flutter on the front, Nim + Postgres on the back, all deployed on a single VPS.**
 
 > *Philosophy:* preserve intent, ship the simplest correct solution, automate the rest. `Code → ship → observe → refine.`
 
@@ -62,14 +62,14 @@ I don't run a team — I run systems. From airline-tycoon simulation to badminto
 ### 🧰 Tech Stack
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=nim,ts,java,postgres,svelte,vue,flutter,dart,linux,githubactions&perline=10&theme=dark" />
+  <img src="https://skillicons.dev/icons?i=nim,ts,java,dart,postgres,svelte,flutter,linux,githubactions&perline=9&theme=dark" />
 </p>
 
 | Layer | Tools |
 |-------|-------|
 | **Languages** | Nim 2.4 (Mummy) · TypeScript 6 · Java · Dart |
 | **Backend & Data** | PostgreSQL 18 (`pgx/v5`) · OpenAPI |
-| **Frontend & UI** | SvelteKit 3 / Svelte 5 · Vue 3 (Element Plus) · Flutter |
+| **Frontend & UI** | SvelteKit 3 / Svelte 5 · Flutter |
 | **Infra & Ops** | Rocky Linux 9 · Podman Quadlet (systemd) · Caddy (TLS + reverse proxy) · GitHub Actions |
 
 ---
