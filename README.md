@@ -62,16 +62,15 @@ I don't run a team — I run systems. From airline-tycoon simulation to badminto
 ### 🧰 Tech Stack
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=nim,ts,postgres,svelte,vue,flutter,dart,linux,githubactions&perline=9&theme=dark" />
+  <img src="https://skillicons.dev/icons?i=nim,ts,java,postgres,svelte,vue,flutter,dart,linux,githubactions&perline=10&theme=dark" />
 </p>
 
 | Layer | Tools |
 |-------|-------|
-| **Languages** | Nim 2.4 (Mummy) · TypeScript 6 · Dart |
+| **Languages** | Nim 2.4 (Mummy) · TypeScript 6 · Java · Dart |
 | **Backend & Data** | PostgreSQL 18 (`pgx/v5`) · OpenAPI |
 | **Frontend & UI** | SvelteKit 3 / Svelte 5 · Vue 3 (Element Plus) · Flutter |
 | **Infra & Ops** | Rocky Linux 9 · Podman Quadlet (systemd) · Caddy (TLS + reverse proxy) · GitHub Actions |
-| **Craft** | Glicko / Dynamic-Elo rating engines · Decimal money (no float!) · Optimistic concurrency · Idempotent ingest |
 
 ---
 
