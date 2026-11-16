@@ -4,12 +4,12 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/nferdazel"><img src="https://readme-typing-svg.demolab.com?font=IBM+Plex+Mono&size=16&duration=3000&pause=800&color=94A3B8&center=true&vCenter=true&width=600&lines=Systems+Prospector+%C2%B7+Solo+Developer+%C2%B7+Indonesia;Go+%2B+Postgres+%2B+Nim+%2B+Svelte;Building+Skyward+%2C+Majadu%2C+SDS+%26+KRAN" alt="" aria-hidden="true" /></a>
+  <a href="https://github.com/nferdazel"><img src="https://readme-typing-svg.demolab.com?font=IBM+Plex+Mono&size=16&duration=3000&pause=800&color=94A3B8&center=true&vCenter=true&width=600&lines=Systems+Prospector+%C2%B7+Solo+Developer+%C2%B7+Indonesia;Go+%2B+Postgres+%2B+Nim+%2B+Svelte;Building+Majadu+%2C+SDS+%26+KRAN;Writing+Nim+%26+Nimony+books" alt="" aria-hidden="true" /></a>
 </p>
 
 <p align="center">
   <a href="https://qouver.com"><img src="https://img.shields.io/badge/qouver.com-umbrella-0f172a?style=for-the-badge" /></a>
-  <a href="https://skyward.qouver.com"><img src="https://img.shields.io/badge/Skyward-Live-0ea5e9?style=for-the-badge&logo=svelte&logoColor=white" /></a>
+  <a href="https://qouver.com/projects/skyward"><img src="https://img.shields.io/badge/Skyward-Archived-64748b?style=for-the-badge&logo=flutter&logoColor=white" /></a>
   <a href="https://sds.qouver.com"><img src="https://img.shields.io/badge/SDS-Live-10b981?style=for-the-badge&logo=vue.js&logoColor=white" /></a>
   <img src="https://visitor-badge.laobi.icu/badge?page_id=nferdazel&left_color=%230f172a&right_color=%230ea5e9" />
 </p>
@@ -25,7 +25,7 @@ I don't run a team — I run systems. From airline-tycoon simulation to badminto
 > *Philosophy:* preserve intent, ship the simplest correct solution, automate the rest. `Code → ship → observe → refine.`
 
 - 🌏 Based in Indonesia · building for real communities (not just demos)
-- 🎯 Currently focused on: **Skyward** (airline sim), **Majadu** (badminton ops), **SDS Management** (Bayer), **KRAN** (banking)
+- 🎯 Currently focused on: **Majadu** (badminton ops), **SDS Management** (Bayer), **KRAN** (core banking, KSP first slice), **Nim & Nimony books**
 - ✍️ Writing on [Medium @nferdazel](https://medium.com/@nferdazel)
 - ☕ Fuel: coffee, clean code, and zero-downtime deploys
 
@@ -33,21 +33,25 @@ I don't run a team — I run systems. From airline-tycoon simulation to badminto
 
 ### 🏗️ What I Build — The Qouver Ecosystem
 
-> Operated on `qouver.com` — active + archived. Solo-built, production-run.
+> Live systems on `qouver.com`, archived ones kept as case studies, plus the public books. Solo-built, production-run.
 
 | # | Project | What it is | Stack | Status |
 |---|---------|------------|-------|--------|
-| **01** | [**Skyward**](https://skyward.qouver.com) — *Airline Tycoon* | Authoritative simulation: fleet, routes, economy, bank/loans, world-tick. Svelte client, Go backend sole engine. | `Go` · `Postgres` · `SvelteKit` | 🟢 **Live** |
-| **02** | [**Majadu**](https://api.qouver.com/majadu) — *Session Ops Engine* | Backend engine & APIs: court scheduling (5-phase engine), live scoring & SSE streams, Glicko-1-lite rating + 8-tier bands, tournament brackets. | `Go` · `Postgres` | 🟢 **Live** |
+| **01** | [**Skyward**](https://qouver.com/projects/skyward) — *Airline Tycoon* | Authoritative simulation: fleet, routes, economy, bank/loans, world-tick. Go backend as sole engine, Flutter client as a pure viewer on web and desktop. | `Go` · `Postgres` · `Flutter` | ⚪ **Archived** |
+| **02** | [**Majadu**](https://qouver.com/projects/majadu) — *Session Ops Engine* | Backend engine & APIs: court scheduling (5-phase engine), live scoring & SSE streams, Glicko-1-lite rating + 8-tier bands, tournament brackets. Frameworkless Go, schema-based multi-tenancy. | `Go` · `Postgres` · `OpenAPI` | 🟢 **Live** |
 | **03** | [**Qouver Web**](https://qouver.com) — *Umbrella Home* | Company site — 100% static HTML prerendered server-side, no JS. Swiss editorial design. | `SvelteKit` · `Nim` · `Caddy` | 🟢 **Live** |
 | **04** | [**SDS Management**](https://sds.qouver.com) — *Compliance* | SDS/MSDS lifecycle: chemical versioning, GHS pictograms, HTML→PDF (Chromium headless), bulk ZIP. | `Vue 3` · `Element Plus` · `Go` · `Postgres` | 🟢 **Live** |
-| **05** | **KRAN** — *Core Banking* (private) | Core banking standard Indonesia (KSP, BPR/BPRS, BMT): tabungan, deposito, kredit — strict double-entry GL (no float money), parameter maker-checker, outbox pattern. | `Nim` · `Postgres` · `SvelteKit` | 🟢 **Private** |
+| **05** | [**KRAN**](https://github.com/nferdazel/kran) — *Core Banking* | Core banking for Indonesian cooperatives. First slice is KSP (simpan pinjam): members, savings, loans with maker/checker, SHU, RAT-class reporting. BPR/BPRS and syariah packages are planned, not built. Strict double-entry GL (no float money), outbox pattern. | `Nim` · `Postgres` · `SvelteKit` | 🟡 **In build** |
 | **06** | [**seather**](https://github.com/nferdazel/seather) — *CI/CD Lab* | Hands-on Flutter CI/CD pipeline — GitHub Actions, release automation, production workflows. | `Flutter` · `GitHub Actions` | 🔵 **Open Source** |
+| **07** | [**M-DEF**](https://qouver.com/projects/mdef) — *Ranking Analytics* | Leaderboard and analytics for a real badminton community, on a custom rating engine that weighed how convincingly you won. Ran in production; its ideas now live inside Majadu. | `Flutter` · `Supabase` · `Postgres` | ⚪ **Archived** |
+| **08** | [**nim-id**](https://github.com/nferdazel/nim-id) — *Nim Book* | Learning Nim in Indonesian and English; every example compiled and verified in CI. | `Nim` · `CI` | 🔵 **Open Source** |
+| **09** | [**nimony-id**](https://github.com/nferdazel/nimony-id) — *Nimony Book* | Hands-on book for programmers learning Nimony, built and verified against one pinned commit, two editions. | `Nimony` · `CI` | 🔵 **Open Source** |
 
 <details>
 <summary>📦 More in <code>/Projects</code> (local / research)</summary>
 
-- `skyward` / `sds-monorepo` / `badminton-match` — each ships its Go backend inside `apps/api` (stdlib `net/http` + `pgx/v5`, no framework bloat), not as separate repos
+- `sds-monorepo` — ships its Go backend inside `apps/api` (stdlib `net/http` + `pgx/v5`, no framework bloat), not as a separate repo
+- `fond` — private operations instrument for freelance work and a self-hosted server (`Nim` + `SvelteKit`)
 - `anomali_detection` — pair/bracket anomaly research + SQL dumps (badminton) · *folded into Majadu*
 - `ohsera` / `ojan` — audit reports & agentic-AI POC notes (private, not on GitHub)
 
@@ -91,11 +95,11 @@ I don't run a team — I run systems. From airline-tycoon simulation to badminto
 
 ```go
 var now = map[string]string{
-    "building":  "Skyward — Go sole engine, authoritative simulation",
-    "shipping":  "Majadu — granular swap + SSE realtime + concurrency hardening",
-    "operating": "SDS Management — normalized columns + Bayer header polish",
-    "hardening": "KRAN — maker-checker parameters, immutable GL, regulatory packs",
-    "writing":   "Qouver handbook — backend decisions & hardening plans",
+    "building":  "KRAN — KSP first slice: savings, loans with maker/checker, SHU, RAT-class reporting",
+    "shipping":  "Majadu — SSE realtime + concurrency hardening, live for real sessions",
+    "operating": "SDS Management — versioned sheets, GHS pictograms, clean PDF exports",
+    "writing":   "Nim & Nimony books — every example compiled and verified in CI",
+    "learning":  "Nimony internals — one pinned commit, written down as it moves",
 }
 ```
 
