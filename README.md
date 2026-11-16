@@ -4,7 +4,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/nferdazel"><img src="https://readme-typing-svg.demolab.com?font=IBM+Plex+Mono&size=16&duration=3000&pause=800&color=94A3B8&center=true&vCenter=true&width=600&lines=Systems+Prospector+%C2%B7+Solo+Developer+%C2%B7+Indonesia;Nim+%2B+Go+%2B+Postgres+%2B+Svelte;Building+Majadu+%2C+SDS+%26+KRAN;Writing+Nim+%26+Nimony+books" alt="" aria-hidden="true" /></a>
+  <a href="https://github.com/nferdazel"><img src="https://readme-typing-svg.demolab.com?font=IBM+Plex+Mono&size=16&duration=3000&pause=800&color=94A3B8&center=true&vCenter=true&width=600&lines=Systems+Prospector+%C2%B7+Solo+Developer+%C2%B7+Indonesia;Nim+%2B+Postgres+%2B+Svelte;Building+Majadu+%2C+SDS+%26+KRAN;Writing+Nim+%26+Nimony+books" alt="" aria-hidden="true" /></a>
 </p>
 
 <p align="center">
@@ -20,7 +20,7 @@
 
 Hey, I'm **Fredi** — **Systems Prospector** behind [**Qouver**](https://qouver.com). Solo-developer, cost-conscious, all-rounder.
 
-I don't run a team — I run systems. From airline-tycoon simulation to badminton session ops to SDS compliance tools, I design, ship, and operate end-to-end: **Svelte/Flutter/Vue on the front, Nim + Go + Postgres on the back, all deployed on a single VPS.**
+I don't run a team — I run systems. From airline-tycoon simulation to badminton session ops to SDS compliance tools, I design, ship, and operate end-to-end: **Svelte/Vue/Flutter on the front, Nim + Postgres on the back, all deployed on a single VPS.**
 
 > *Philosophy:* preserve intent, ship the simplest correct solution, automate the rest. `Code → ship → observe → refine.`
 
@@ -62,13 +62,14 @@ I don't run a team — I run systems. From airline-tycoon simulation to badminto
 ### 🧰 Tech Stack
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=nim,go,postgres,svelte,flutter,dart,vue,ts,linux,githubactions&perline=10&theme=dark" />
+  <img src="https://skillicons.dev/icons?i=nim,ts,postgres,svelte,vue,flutter,dart,linux,githubactions&perline=9&theme=dark" />
 </p>
 
 | Layer | Tools |
 |-------|-------|
-| **Backend & Systems** | Nim 2.4 (Mummy) · Go (`net/http` stdlib, no framework) · PostgreSQL 18 (`pgx/v5`) · OpenAPI |
-| **Frontend & UI** | SvelteKit 3 / Svelte 5 · TypeScript 6 · Vue 3 (Element Plus) · Flutter |
+| **Languages** | Nim 2.4 (Mummy) · TypeScript 6 · Dart |
+| **Backend & Data** | PostgreSQL 18 (`pgx/v5`) · OpenAPI |
+| **Frontend & UI** | SvelteKit 3 / Svelte 5 · Vue 3 (Element Plus) · Flutter |
 | **Infra & Ops** | Rocky Linux 9 · Podman Quadlet (systemd) · Caddy (TLS + reverse proxy) · GitHub Actions |
 | **Craft** | Glicko / Dynamic-Elo rating engines · Decimal money (no float!) · Optimistic concurrency · Idempotent ingest |
 
